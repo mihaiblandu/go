@@ -21,5 +21,11 @@ func init(arr []int) {
 	makeCombo(arr, len(arr)-1)
 }
 func makeCombo(arr []int, step int) {
-
+	if(arr[string] < 9 ){
+		arr[step]++
+		makeCombo(arr []int, step int)
+	}else if(step > 0){
+		arr[step] =arr[ step -1] +1
+	
+	}
 }
